@@ -1,0 +1,20 @@
+{
+  "type": "postgres",
+  "host": "asmi-products-db.cnmkmpcubdot.us-east-2.rds.amazonaws.com",
+  "port": null,
+  "username": "asmi_db_admin",
+  "password": "F7t7f-ZLTTBVT",
+  "database": "scp_stage_db",
+  "entities": [
+    "/home/sanjib/Documents/scp-qa/src/config/../entities/reviews.entity{.ts,.js}"
+  ],
+  "migrationsTableName": "migration-undefined",
+  "migrations": [
+    "/home/sanjib/Documents/scp-qa/src/database/migration-undefined/*{.ts,.js}"
+  ],
+  "synchronize": true,
+  "cli": {
+    "migrationsDir": "src/database/migration-undefined"
+  },
+  "ssl": false
+}
